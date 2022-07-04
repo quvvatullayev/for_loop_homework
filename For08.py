@@ -1,3 +1,6 @@
+from this import s
+
+
 def main(N):
     """
     The number N is given. Calculate the sum below: 1 + 1/2 + 1/3 + … + 1/N.
@@ -6,4 +9,9 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    s = 0
+    for i in range(1,N+1):
+        s += 1/int(i)
+    return s
+
+print(main(4))
