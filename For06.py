@@ -12,7 +12,7 @@ def main(A,B):
     for i in x:
         if type(i) == type(5):
             
-            while i != 0:
+            while i > 0:
                 s += i%10
                 i //= 10
     return s
