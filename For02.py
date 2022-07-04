@@ -6,9 +6,10 @@ def main(n):
     Returns:
         string: return  answer
     """
-    x = []
+
+    x = ''
     for i in range(n):
-        x.append(i)
-    return str(x)
+        x += str(i) + ","
+    return x
 
 print(main(3))
