@@ -7,13 +7,6 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    s = 0
-    x = list(range(A,B))
-    for i in x:
-        if type(i) == type(5):
-            while i != 0:
-                s += i%10
-                i //= 10
-    return s
+    return
 
 print(main(-6,8))
