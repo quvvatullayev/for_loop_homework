@@ -10,11 +10,7 @@ def main(A,B):
     s = 0
     x = list(range(A,B))
     for i in x:
-        if type(i) == type(5):
-            
-            while i > 0:
-                s += i%10
-                i //= 10
+        s += i
     return s
 
-print(main(0,8))
+print(main(-6,8))
